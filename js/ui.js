@@ -95,22 +95,4 @@ const sr = ScrollReveal({
 
   /*slow navitagion */
 
-$('#home').on('click', function(){
-  $('html, body').animate( {scrollTop: 500}, 1000 );
-})
 
-$('#about').on('click', function(){
-  $('html, body').animate( {scrollTop: 1000}, 1000 );
-});
-
-$('#services').on('click', function(){
-  $('html, body').animate( {scrollTop: 1000}, 1000 );
-});
-
-$('#projects').on('click', function(){
-  $('html, body').animate( {scrollTop: 1000}, 1000 );
-});
-
-$('#contact').on('click', function(){
-  $('html, body').animate( {scrollTop: 1000}, 1000 );
-});
