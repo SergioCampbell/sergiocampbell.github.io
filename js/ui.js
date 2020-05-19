@@ -103,7 +103,14 @@ $('#about').on('click', function(){
   $('html, body').animate( {scrollTop: 1000}, 1000 );
 });
 
-/*particles */
-particlesJS.load('particles-js', 'assets/particles.json', function() {
-  console.log('callback - particles.js config loaded');
+$('#services').on('click', function(){
+  $('html, body').animate( {scrollTop: 1000}, 1000 );
+});
+
+$('#projects').on('click', function(){
+  $('html, body').animate( {scrollTop: 1000}, 1000 );
+});
+
+$('#contact').on('click', function(){
+  $('html, body').animate( {scrollTop: 1000}, 1000 );
 });
