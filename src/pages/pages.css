@@ -1,0 +1,112 @@
+/*COLORS*/
+:root{
+    --color-1: #73a7fb;
+    --color-2: #2073fc;
+    --color-3: #20affc;
+    --color-4: #ac20fc;
+    --color-5: #be55fa;
+    --color-6: #e0b0fc;
+}
+
+.color-1{
+    color: var(--color-1);
+}
+
+.color-2{
+    color: var(--color-2);
+}
+.color-3{
+    color: var(--color-3);
+}
+.color-4{
+    color: var(--color-4);
+}
+.color-5{
+    color: var(--color-5);
+}
+.color-6{
+    color: var(--color-6);
+}
+
+.bg-gradient-bio{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(270deg, rgba(199, 199, 199, 0.6), rgb(173, 241, 253,0.6)),url('../assets/sergio2021.jpg');
+    background-size: cover;
+    animation: Gradient 15s ease infinite;
+    align-items: start;
+    justify-content: start;
+    font-size: x-large;
+}
+
+.text-shadow{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    color: white;
+}
+
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.bio-photo{
+    margin: 0;
+    padding: 0;
+    max-height: 45vh;
+    border-radius: 5em;
+    border: solid;
+    border-color: var(--color-3);
+}
+
+.bg-gradient-contact{
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    background: linear-gradient(270deg, rgba(199, 199, 199, 0.6), rgb(173, 241, 253,0.6)),url('../assets/sergio2021-telec.jpg');
+    background-size: cover;
+    animation: Gradient 15s ease infinite;
+    align-items: start;
+    justify-content: start;
+    font-size: x-large;
+    background-repeat: no-repeat;
+}
+
+.bg-gradient-linkedin{
+    background: linear-gradient(270deg, var(--color-1), var(--color-2));
+    margin: 0;
+    padding: 0;
+}
+
+.btn-content{
+    display: absolute;
+    margin: 1em;
+    font-size: x-large;
+    color: white;
+    border: solid;
+    border-radius: 15em;
+    transition: .5s;
+}
+
+.btn-content:hover{
+    color: var(--color-1);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.btn-submit{
+    display: absolute;
+    margin: 1em;
+    font-size: x-large;
+    color: var(--color-1);
+    border: solid;
+    border-radius: 15em;
+    transition: .5s;
+}
+
+/*MAP*/
+.map{
+    max-width: 80em;
+    height: 20em;
+    margin: 0;
+    padding: 0;
+}
