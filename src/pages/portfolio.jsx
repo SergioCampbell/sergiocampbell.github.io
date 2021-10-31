@@ -1,9 +1,10 @@
 import React from 'react'
+import Services from '../component/services'
 
 function Portfolio() {
     return(
         <>
-        <p>This is the Portfolio page</p>
+        <Services/>
         </>
     )
 }
