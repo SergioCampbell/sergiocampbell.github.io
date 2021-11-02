@@ -8,7 +8,7 @@ import tel from '../assets/sergio2021-telec.jpg'
 
 export default function Bio() {
     return(
-        <section className="">
+        <>
         <div className="bg-gradient-bio position-relative"><br/>
         <div className="position-absolute top-50 start-0 translate-middle-y mx-5">
         <p className=" text-shadow">Hola, mi nombre es:</p>
@@ -76,6 +76,6 @@ export default function Bio() {
                 <a href="https://linkedin.com/in/iamsergiocampbell" 
                 target="_blank" className="btn btn-content col" rel="noreferrer">Ver currículum</a>
             </div>
-        </section>
+        </>
     )
 }

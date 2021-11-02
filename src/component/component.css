@@ -16,6 +16,12 @@
     background: linear-gradient(90deg, rgb(38, 38, 38), rgb(0, 0, 0));
  }
 
+ .bg-dark-gradnt-card{
+    background: linear-gradient( rgb(38, 38, 38), rgb(0, 0, 0));
+    padding: 1em;
+    margin: 1em;
+ }
+
 .text-shadow{
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     color: white;
@@ -23,6 +29,23 @@
 
 .txt-rotate{
     font-size: x-large;
+}
+
+.ability{
+    border-radius: 2em;
+    margin-top: 3em;
+}
+
+.ability i{
+    font-size: xx-large;
+    transition: .5s;
+    text-shadow: 1px 1px 1px var(--color-3);
+}
+
+.ability:hover i{
+    transform: scale(1.5);
+    margin: .5em;
+    color: var(--color-2);
 }
 
 /*SHAPE*/

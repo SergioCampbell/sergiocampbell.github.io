@@ -5,13 +5,12 @@ import Banner from '../component/banner'
 import './pages.css'
 import Services from '../component/services'
 
-function Home() {
+function Home(porps) {
     return(
         <>
         <Banner/>
-        <Shape/>
         <section className="container">
-            <Services/>
+        <Services/>
         </section>
         </>
     )

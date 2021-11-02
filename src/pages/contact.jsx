@@ -1,5 +1,5 @@
 import React from 'react'
-import { Fragment, useState } from 'react'
+import {  useState } from 'react'
 import './pages.css'
 //emailjs to send email from the website
 import emailjs, { init } from 'emailjs-com';
@@ -29,10 +29,10 @@ function Contact() {
     }
 
     return(
-        <Fragment>
+        <>
         <section>
         <div className="bg-gradient-contact"><br/>
-        <div className="mt-5">
+        <div className="mt-5"><br/>
             <h2 className="display-6 text-shadow">COMO FREELANCE, MI LUGAR DE TRABAJO ES VARIABLE.</h2>
         <p className=" text-shadow">Vivo en Barranquilla, Colombia; pero tengo total disponibilidad para trasladarme allí donde me necesite.</p>
         <a href="#contact-me" className="btn btn-content text-shadow btn-lg shadow-lg">Contacta conmigo</a>
@@ -79,7 +79,7 @@ function Contact() {
                 <a href="https://linkedin.com/in/iamsergiocampbell" 
                 target="_blank" className="btn btn-content col" rel="noreferrer">Ver currículum</a>
             </div>
-        </Fragment>
+        </>
     )
 }
 

@@ -29,15 +29,26 @@
 }
 
 .bg-gradient-bio{
-    margin: 0;
+    margin: -3.2em 0 0 0;
     padding: 0;
     height: 100vh;
     background: linear-gradient(270deg, rgba(199, 199, 199, 0.6), rgb(173, 241, 253,0.6)),url('../assets/sergio2021.jpg');
     background-size: cover;
-    animation: Gradient 15s ease infinite;
     align-items: start;
     justify-content: start;
     font-size: x-large;
+}
+
+.bg-gradient-services{
+    margin: -3.2em 0 0 0;
+    padding: 0;
+    height: 50vh;
+    background: linear-gradient(270deg, rgba(199, 199, 199, 0.6), rgb(173, 241, 253,0.6)),url('../assets/reserved.jpg');
+    background-size: cover;
+    align-items: start;
+    justify-content: start;
+    font-size: x-large;
+    background-repeat: no-repeat;
 }
 
 .text-shadow{
@@ -57,15 +68,23 @@
     border-radius: 5em;
     border: solid;
     border-color: var(--color-3);
+    transition: .5s;
+}
+
+.bio-photo:hover{
+    border-radius: 10em;
+    border-color: var(--color-4);
+    filter:saturation(.5);
+    transform: scale(1.1);
+
 }
 
 .bg-gradient-contact{
-    margin: 0;
+    margin: -3.2em 0 0 0;
     padding: 0;
     height: 50vh;
     background: linear-gradient(270deg, rgba(199, 199, 199, 0.6), rgb(173, 241, 253,0.6)),url('../assets/sergio2021-telec.jpg');
     background-size: cover;
-    animation: Gradient 15s ease infinite;
     align-items: start;
     justify-content: start;
     font-size: x-large;
