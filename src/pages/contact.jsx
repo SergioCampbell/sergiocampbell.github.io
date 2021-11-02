@@ -50,6 +50,8 @@ function Contact() {
                      <a className="text-secondary" href="info@sergiocampbell.dev" type="email">info@sergiocampbell.dev</a></p>
                 </div>
                 <form className="col-sm-5 col-md-6" onSubmit={handleSubmit}>
+                <div className="input-group">
+                <span className="input-group-text mb-3"><i className="far fa-envelope fa-lg"></i></span>
                     <input type="email"
                     name="nameEmail"
                     value={contact.nameEmail}
@@ -59,6 +61,9 @@ function Contact() {
                      placeholder="name@example.com"
                          required
                      />
+                </div>
+                    <div className="input-group">
+                    <span className="input-group-text"><i className="fas fa-comment-dots fa-lg"></i></span>
                     <textarea
                     type="text" required
                     name="emailDetails"
@@ -68,6 +73,7 @@ function Contact() {
                     placeholder="Tu mensaje va aquí :D recuerda dejar tu nombre."
                     id="exampleFormControlTextarea1" rows="3"
                     ></textarea>
+                    </div>
                     { showMessage ? <div className="alert alert-success mt-3 col-md-5 mx-auto" role="alert">Email Send Success!!</div> : ''}
                     <button type="submit" className="btn btn-submit">Enviar</button>
                     </form>

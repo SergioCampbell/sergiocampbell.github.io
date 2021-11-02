@@ -8,6 +8,32 @@
     --color-6: #e0b0fc;
 }
 
+.color-1{
+    color: var(--color-1);
+}
+
+.color-2{
+    color: var(--color-2);
+}
+.color-3{
+    color: var(--color-3);
+}
+.color-4{
+    color: var(--color-4);
+}
+.color-5{
+    color: var(--color-5);
+}
+.color-6{
+    color: var(--color-6);
+}
+
+hr{
+    color: var(--color-2);
+    border: solid;
+    
+}
+
 .bg-gradnt {
     background: linear-gradient( rgb(150, 66, 247), rgb(86, 37, 141));
   }
@@ -258,4 +284,24 @@ ul li p:hover{
     border-radius: 30px;
     transition-delay: .2s;
     z-index: -1;
+  }
+
+  /*PORTFOLIO*/
+  
+.card{
+    overflow: hidden;
+}
+
+.card img{
+    transition: all .5s ease;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    filter: brightness(.5)
+}
+
+.projects a{
+    white-space: nowrap;
+    contain: 'body';
   }

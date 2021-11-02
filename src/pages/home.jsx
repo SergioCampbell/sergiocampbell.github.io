@@ -10,6 +10,7 @@ function Home(porps) {
         <>
         <Banner/>
         <section className="container">
+        <h2 className="display-3 mb-5">Servicios</h2>
         <Services/>
         </section>
         </>

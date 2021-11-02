@@ -50,7 +50,7 @@ export default function Upload(){
     return(    
 
         <section id="upload">
-            <form onSubmit={handleSubmit(sentData)}>
+            <form onSubmit={handleSubmit(sentData)} enctype="multipart/form-data">
                 <div className="mb-3">
                     <input type="text"
                     placeholder="Name"

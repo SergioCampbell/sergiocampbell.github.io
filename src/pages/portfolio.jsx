@@ -13,7 +13,12 @@ function Portfolio() {
         </div>
         </section><br/>
 
+        <h2 className="display-3 mb-5">Servicios y proyectos</h2>
+
         <Services/>
+
+         <hr/>
+
         <Works />
 
         </>

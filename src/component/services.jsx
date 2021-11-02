@@ -3,8 +3,7 @@ import React from 'react'
 export default function Services(props){
     
     return(
-        <>
-        <h2 className="display-3">Servicios y proyectos</h2>
+        <> 
 
         <section className="container services mb-5">
             <div className="row row-cols-1 row-cols-md-5 g-5">
