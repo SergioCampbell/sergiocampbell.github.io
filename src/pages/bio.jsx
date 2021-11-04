@@ -23,7 +23,7 @@ export default function Bio() {
         <div className="container mt-5">
             <div className="row mt-5">
                 <div className="col">
-                    <img src={prog} alt="logo sergio campbell dev" className="bio-photo shadow-lg mt-5"/>
+                    <img src={prog} alt="sergio campbell dev" className="bio-photo shadow-lg mt-5"/>
                 </div>
                 <div className="col">
                     <h3>Programación</h3>
@@ -33,13 +33,13 @@ export default function Bio() {
                         computo e impresoras. Avanzando los estudios en la universidad Politecnico de las Costa Atlántica; descubrí 
                         los lenguajes de programación:
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item"><i class="fas fa-angle-right color-3"></i>C# (C Sharp)</li>
-                            <li className="list-group-item"><i class="fas fa-angle-right color-3"></i>Python</li>
-                            <li className="list-group-item"><i class="fas fa-angle-right color-3"></i>SQL</li>
-                            <li className="list-group-item"><i class="fas fa-angle-right color-3"></i>JavaScript</li>
+                            <li className="list-group-item"><i className="fas fa-angle-right color-3"></i>C# (C Sharp)</li>
+                            <li className="list-group-item"><i className="fas fa-angle-right color-3"></i>Python</li>
+                            <li className="list-group-item"><i className="fas fa-angle-right color-3"></i>SQL</li>
+                            <li className="list-group-item"><i className="fas fa-angle-right color-3"></i>JavaScript</li>
                         </ul> 
-                        Con este último, a mediados de 2019 empezé a usar <a className="text-dark" href="https://angularjs.org" target="_blank" rel="no-refered">Angularjs</a> y &nbsp;
-                        <a className="text-dark" href="https://reactjs.org" target="_blank" rel="no-refered">Reactjs</a> adaptando las actualizaciones
+                        Con este último, a mediados de 2019 empezé a usar <a className="text-dark" href="https://angularjs.org" target="_blank" rel="noreferrer">Angularjs</a> y &nbsp;
+                        <a className="text-dark" href="https://reactjs.org" target="_blank" rel="noreferrer">Reactjs</a> adaptando las actualizaciones
                         en cáda proyecto que realizo.
                      </p>
                 </div>
@@ -47,7 +47,7 @@ export default function Bio() {
 
             <div className="row mt-5">
                 <div className="col">
-                    <img src={tel} alt="logo sergio campbell dev" className="bio-photo shadow-lg mt-5"/>
+                    <img src={tel} alt="sergio campbell telecommunication" className="bio-photo shadow-lg mt-5"/>
                 </div>
                 <div className="col">
                     <h3>Telecomunicaciones</h3>
@@ -60,9 +60,9 @@ export default function Bio() {
                         lado del juego; es decir, estar en oficina como documentador e interventor. Así con el tiempo, esfuerzo y constancia hasta hoy en día
                         ocupar el puesto de Líder documentador de telecomunicaciones interviniendo y auditando:
                     <ul className="list-group list-group-flush">
-                        <li className="list-group-item"><i class="fas fa-angle-right color-3"></i> GSM</li>
-                        <li className="list-group-item"><i class="fas fa-angle-right color-3"></i> UMTS</li>
-                        <li className="list-group-item"><i class="fas fa-angle-right color-3"></i> LTE</li>
+                        <li className="list-group-item"><i className="fas fa-angle-right color-3"></i> GSM</li>
+                        <li className="list-group-item"><i className="fas fa-angle-right color-3"></i> UMTS</li>
+                        <li className="list-group-item"><i className="fas fa-angle-right color-3"></i> LTE</li>
                     </ul>
                     </p>
                 </div>

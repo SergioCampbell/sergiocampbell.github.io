@@ -10,7 +10,7 @@ function Banner(params) {
             <source  src={bg} type="video/mp4"></source>
         </video>
         <div className="video-container">
-        <span className="display-5 text-shadow">BIENVENIDO!</span>
+        <span className="display-5 text-shadow">¡BIENVENIDO!</span>
             <h1 className="display-2 text-shadow">Sergio Andres <br/>Campbell Villarreal</h1>
                 <br/><hr/><br/>
                 <p className="txt-rotate text-light text-shadow" data-period="2000"

@@ -48,6 +48,14 @@ hr{
     margin: 1em;
  }
 
+ .bg-prog{
+    background: linear-gradient(270deg, rgba(169, 228, 255, 0.6),rgba(251, 168, 255, 0.6));
+ }
+
+ .bg-tel{
+    background: linear-gradient(90deg, rgba(96, 205, 255, 0.6),rgba(244, 84, 252, 0.6));
+ }
+
 .text-shadow{
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     color: white;
@@ -305,3 +313,55 @@ ul li p:hover{
     white-space: nowrap;
     contain: 'body';
   }
+
+/*STRATEGY*/
+.strategy-card{
+    transition: .5s;
+    border-top: 1px solid rgba(82, 166, 255, 0.624);
+    border-bottom: 1px solid rgba(192, 82, 255, 0.624);
+    border-radius: 50px;
+    transition: 1s;
+    margin: 0;
+    padding: 0;    
+}
+
+.strategy-card .icon{
+    transition: .5s;
+    filter: opacity(1);
+    font-size: 3em;
+    display: inherit;
+    transform: translateY(2em);
+}
+
+.strategy-card .icon:hover{
+    filter: opacity(0.5);
+    transform: translateY(-0.7em);
+    color: var(--color-6);
+}
+
+
+.four-card{
+  margin: 0;
+  padding: 1em;
+  transition: 1s ease;
+  opacity: 0;
+  transform: translateY(2em);
+  border-radius: 20%;
+  font-size: medium;
+  
+}
+
+.four-card:hover{
+    opacity: 1;
+    transform: translateY(0);
+    backdrop-filter: blur(5px);
+}
+
+/*MINI-BIO*/
+.mini{
+    width: 20em;
+}
+
+div p ul{
+    list-style: none;
+}

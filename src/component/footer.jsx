@@ -103,25 +103,25 @@ function Footer() {
                 </li>
 
                 <li className="nav-item nav-footer">
-                    <a href="https://facebook.com/iamsergiocampbell" target="_blank" ><i className="fab fa-facebook-f footer-icon"></i></a>
+                    <a href="https://facebook.com/iamsergiocampbell" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f footer-icon"></i></a>
                 </li>
                 <li className="nav-item nav-footer">
-                    <a href="https://twitter.com/sergiocamp28" target="_blank" ><i className="fab fa-twitter footer-icon"></i></a>
+                    <a href="https://twitter.com/sergiocamp28" target="_blank" rel="noreferrer"><i className="fab fa-twitter footer-icon"></i></a>
                 </li>
                 <li className="nav-item nav-footer">
-                    <a href="https://linkedin.com/in/iamsergiocampbell" target="_blank" ><i className="fab fa-linkedin-in footer-icon"></i></a>
+                    <a href="https://linkedin.com/in/iamsergiocampbell" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in footer-icon"></i></a>
                 </li>
                 <li className="nav-item nav-footer">
-                    <a href="https://youtube.com/c/iamsergiocampbell" target="_blank" ><i className="fab fa-youtube footer-icon"></i></a>
+                    <a href="https://youtube.com/c/iamsergiocampbell" target="_blank" rel="noreferrer"><i className="fab fa-youtube footer-icon"></i></a>
                 </li>
                 <li className="nav-item nav-footer">
-                    <a href="https://instagram.com/iamsergiocampbell" target="_blank" ><i className="fab fa-instagram footer-icon"></i></a>
+                    <a href="https://instagram.com/iamsergiocampbell" target="_blank" rel="noreferrer"><i className="fab fa-instagram footer-icon"></i></a>
                 </li>
                 <li className="nav-item nav-footer">
-                    <a href="https://github.com/sergiocampbell" target="_blank" ><i className="fab fa-github footer-icon"></i></a>
+                    <a href="https://github.com/sergiocampbell" target="_blank" rel="noreferrer"><i className="fab fa-github footer-icon"></i></a>
                 </li>
                 <li className="nav-item nav-footer">
-                    <a href="https://codepen.io/sergiocampbell" target="_blank" ><i className="fab fa-codepen footer-icon"></i></a>
+                    <a href="https://codepen.io/sergiocampbell" target="_blank" rel="noreferrer"><i className="fab fa-codepen footer-icon"></i></a>
                 </li>
             </ul>
             </nav>
