@@ -6,7 +6,6 @@ npm create astro@latest -- --template portfolio
 
 ![portfolio](https://i.imgur.com/VEDct8D.jpg)
 
-
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
