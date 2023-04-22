@@ -4,9 +4,9 @@ import ThemeToggle from './ThemeToggle.astro';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
-	{ label: 'Home', href: 'https://sergiocampbell.github.io/sacv/' },
-	{ label: 'Work', href: 'https://sergiocampbell.github.io/sacv/work/' },
-	{ label: 'About', href: 'https://sergiocampbell.github.io/sacv/about/' },
+	{ label: 'Home', href: '/' },
+	{ label: 'Work', href: '/work/' },
+	{ label: 'About', href: '/about/' },
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
@@ -21,7 +21,7 @@ const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
 
 <nav>
 	<div class="menu-header">
-		<a href="https://sergiocampbell.github.io/sacv/" class="site-title">
+		<a href="/" class="site-title">
 			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
 			Sergio Campbell Dev
 		</a>
