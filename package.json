@@ -2,7 +2,7 @@
   "name": "@sergiocampbelldev/portfolio",
   "type": "module",
   "version": "0.0.1",
-  "repository": "https://github.com/SergioCampbell/sacv",
+  "repository": "https://github.com/SergioCampbell/sergiocampbell.github.io",
   "private": true,
   "scripts": {
     "dev": "astro dev",
