@@ -95,18 +95,26 @@ const projects = (await getCollection("work"))
           <Grid variant="small">
             {
               [
-                "Devices & Technologies",
-                "Zemoga",
-                "Evolution Code",
-                "Liteyca",
-                "Optecom",
-                "VBB Ingenieria SAS",
-                "Optimacom",
-                "ITA",
-                "Open Source and more...",
+                { name: "Zemoga", web: "https://zemoga.com" },
+                { name: "Evolution Code", web: "https://evolutioncode.io" },
+                { name: "Liteyca", web: "https://www.liteyca.es" },
+                { name: "Optecom", web: "https://www.optecom.com.co" },
+                {
+                  name: "Devices & Technologies",
+                  web: "https://devitech.com.co",
+                },
+                { name: "VBB Ingenieria SAS", web: "#" },
+                {
+                  name: "Optimacom",
+                  web: "https://www.linkedin.com/company/optimacom-sas",
+                },
+                { name: "ITA", web: "https://ita-sa.com" },
+                { name: "Open Source and more...", web: "#" },
               ].map((brand) => (
                 <li class="mention-card">
-                  <p>{brand}</p>
+                  <a href={brand.web} class="brands">
+                    {brand.name}
+                  </a>
                 </li>
               ))
             }
@@ -161,6 +169,12 @@ const projects = (await getCollection("work"))
   }
 
   /* ====================================================== */
+
+  .brands {
+    text-decoration: none;
+    color: var(--gray-300);
+    transition: transform 0.2s;
+  }
 
   .section {
     display: grid;
@@ -253,12 +267,23 @@ const projects = (await getCollection("work"))
     color: var(--gray-300);
     background: var(--gradient-subtle);
     box-shadow: var(--shadow-sm);
+    transition: transform 0.2s;
+    box-shadow: 0 0 2px 2px #def2ff inset, 0 0 0 0 #def2ff;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
   }
 
   @media (min-width: 50em) {
     .mention-card {
       border-radius: 1.5rem;
       height: 9.5rem;
+    }
+    .mention-card:hover {
+      box-shadow: 0 0 10px 0 #def2ff inset, 0 0 10px 4px #def2ff;
+    }
+
+    .brands:hover {
+      transform: scale(1.2);
     }
   }
 </style>
