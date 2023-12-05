@@ -35,25 +35,41 @@ import Grid from "../components/Grid.astro";
           </p>
           <Grid variant="small">
             {
-              [
-                "JavaScript",
-                "TypeScript",
-                "React",
-                "Redux",
-                "NodeJS",
-                "JavaScript",
-                "SQL",
-                "Azure DevOps",
-                "Firebase",
-              ].map((brand) => <li class="mention-card">{brand}</li>)
+              ["JavaScript", "Java", "SQL"].map((brand) => (
+                <li class="mention-card">{brand}</li>
+              ))
             }
           </Grid>
           <p style="margin:1em 0;">
-            With the latter, in mid-2018 I started using Angularjs and Reactjs
-            adapting the updates in every project I do and implementing
-            programming paradigms and agile methodologies such as SCRUM and
-            currently applied to the projects in which I collaborate.
+            With the latter, in mid-2018 I started using <q>Angular</q> and <q
+              >React.js</q
+            >
+            adapting the updates in every project I do and implementing programming
+            paradigms and agile methodologies such as SCRUM and currently applied
+            to the projects in which I collaborate.
           </p>
+          <p style="margin:1em 0;">Currently my programming stack is based on:</p>
+          <Grid variant="small">
+            {
+              [
+                "TypeScript",
+                "React",
+                "React-Native",
+                "Angular",
+                "Redux",
+                "React-Query",
+                "NodeJS",
+                "Jest",
+                "PlayWright",
+                "JavaScript",
+                "Python",
+                "SQL",
+                "Azure DevOps",
+                "Firebase",
+                "Figma",
+              ].map((brand) => <li class="mention-card">{brand}</li>)
+            }
+          </Grid>
         </div>
       </section>
       <section>
@@ -72,6 +88,7 @@ import Grid from "../components/Grid.astro";
                 "Leadership",
                 "Team lead",
                 "Comunication",
+                "Clean code",
                 "Kindness",
                 "Initiative",
                 "SCRUM",
