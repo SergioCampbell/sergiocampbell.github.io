@@ -12,8 +12,9 @@ export default function ContactForm() {
 const form = useRef<HTMLFormElement>(null);
 const [wasSended, setWasSended] = React.useState(false)
   const submit = (e: any) => {
-    e.preventDefault();
-    emailjs.sendForm(import.meta.env.SERVICE_ID, import.meta.env.TEMPLATE_ID, form.current, import.meta.env.PUBLIC_KEY)
+      e.preventDefault();
+    emailjs.sendForm(import.meta.env.PUBLIC_KEY_SERVICE_ID, import.meta.env.PUBLIC_KEY_TEMPLATE_ID,
+        form.current, import.meta.env.PUBLIC_KEY)
       .then((result: EmailJSResponseStatus) => {
           console.log(result.text);
           setWasSended(true);
@@ -26,7 +27,6 @@ return(
     <>
     {!wasSended ?
     <form ref={form} className='contact' onSubmit={submit}>
-    <div className="g-recaptcha" data-sitekey={import.meta.env.RECAPTCHA}></div>
         <label>
             <span>Subject</span><br />
             <input className='contactInput' type="text" name="subject" placeholder="Subject email" required />
@@ -44,6 +44,7 @@ return(
 
         </label>
       <br/>
+    <div aria-required="true" className="g-recaptcha" data-sitekey={import.meta.env.PUBLIC_KEY_RECAPTCHA}></div>
         <button type="submit" className='contactBtn'>Send Me a Message 📧</button>
     </form> 
     : <h2>Thank you for your message!</h2>}</>

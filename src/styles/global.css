@@ -259,16 +259,21 @@ h5 {
     justify-content: space-evenly;
     align-items: center;
     justify-items: stretch;
+	font-size: var(--text-md);
 }
 
 .contactInput {
-	border-radius: 30px;
-    background-color: darkgrey;
+	border-radius: 999rem;
+    background-color: var(--gray-999);
+	border: 1px solid var(--accent-regular);
+	color: var(--gray-0);
 }
 
 .contactTextarea {
-	border-radius: 30px;
-    background-color: darkgrey;
+	border-radius: 999rem;
+    background-color: var(--gray-999);
+	border: 1px solid var(--accent-regular);
+	color: var(--gray-0);
 	max-width: 649px;
     max-height: 171px;
     min-width: 349px;
