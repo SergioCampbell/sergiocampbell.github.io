@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import Grid from '../components/Grid.astro';
+import BlogPreview from '../components/BlogPreview.astro';
+
+const blogs = (await getCollection('blog')).sort(
+	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
+---
+
+<BaseLayout
+	title="My Blog | Sergio Campbell Dev"
+	description="sdsd"
+>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="Blog"
+				tagline="Here I share my thoughts on web development, design, and more."
+				align="start"
+			/>
+			<Grid variant="offset">
+				{
+					blogs.map((blog) => (
+						<li>
+							<BlogPreview blog={blog} />
+						</li>
+					))
+				}
+			</Grid>
+
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>
