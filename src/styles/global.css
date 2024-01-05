@@ -253,3 +253,69 @@ h5 {
 		gap: 12rem;
 	}
 }
+
+.contact {
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: stretch;
+}
+
+.contactInput {
+	border-radius: 30px;
+    background-color: darkgrey;
+}
+
+.contactTextarea {
+	border-radius: 30px;
+    background-color: darkgrey;
+	max-width: 649px;
+    max-height: 171px;
+    min-width: 349px;
+    min-height: 50px;
+}
+
+.contactBtn {
+	position: relative;
+	display: flex;
+	place-content: center;
+	text-align: center;
+	padding: 0.56em 2em;
+	gap: 0.8em;
+	color: var(--accent-text-over);
+	text-decoration: none;
+	line-height: 1.1;
+	border-radius: 999rem;
+	overflow: hidden;
+	background: var(--gradient-accent-orange);
+	box-shadow: var(--shadow-md);
+	white-space: nowrap;
+}
+
+@media (min-width: 20em) {
+	.contactBtn, label, input, textarea {
+		font-size: var(--text-lg);
+	}
+}
+
+/* Overlay for hover effects. */
+.contactBtn::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	transition: background-color var(--theme-transition);
+	mix-blend-mode: overlay;
+}
+
+.contactBtn:focus::after,
+.contactBtn:hover::after {
+	background-color: hsla(var(--gray-999-basis), 0.3);
+}
+
+@media (min-width: 50em) {
+	.contactBtn, label, input, textarea {
+		padding: 1.125rem 2.5rem;
+		font-size: var(--text-xl);
+	}
+}
