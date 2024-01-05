@@ -13,8 +13,8 @@ const form = useRef<HTMLFormElement>(null);
 const [wasSended, setWasSended] = React.useState(false)
   const submit = (e: any) => {
       e.preventDefault();
-    emailjs.sendForm(import.meta.env.PUBLIC_KEY_SERVICE_ID, import.meta.env.PUBLIC_KEY_TEMPLATE_ID,
-        form.current, import.meta.env.PUBLIC_KEY)
+    emailjs.sendForm("service_ztojqk4", "template_n0zrrmg",
+        form.current, "user_rB8qWaGWX9OFw575diXB3")
       .then((result: EmailJSResponseStatus) => {
           console.log(result.text);
           setWasSended(true);
@@ -44,7 +44,7 @@ return(
 
         </label>
       <br/>
-    <div aria-required="true" className="g-recaptcha" data-sitekey={import.meta.env.PUBLIC_KEY_RECAPTCHA}></div>
+    <div aria-required="true" className="g-recaptcha" data-sitekey="6Ldh4UYpAAAAAKppId-7T95Qq0Ut-kA3VuiDmx1T"></div>
         <button type="submit" className='contactBtn'>Send Me a Message 📧</button>
     </form> 
     : <h2>Thank you for your message!</h2>}</>
