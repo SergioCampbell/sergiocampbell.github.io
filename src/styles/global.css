@@ -324,3 +324,18 @@ h5 {
 		font-size: var(--text-xl);
 	}
 }
+
+.code {
+	background-color: var(--gray-50);
+	border: 1px solid #ddd;
+	border-left: 3px solid var(--gray-500);
+	color: var(--gray-999);
+	display: block;
+	font-family: monospace;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	page-break-inside: avoid;
+	word-wrap: break-word;
+  }
