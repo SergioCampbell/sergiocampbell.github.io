@@ -5,6 +5,11 @@ import ContactCTA from "../components/ContactCTA.astro";
 import Hero from "../components/Hero.astro";
 
 import Grid from "../components/Grid.astro";
+
+// Internalize i18n
+import { getI18n } from "../i18n";
+const { currentLocale } = Astro as { currentLocale: string}
+const i18n = getI18n({ currentLocale });
 ---
 
 <BaseLayout title="About | Sergio Campbell" description="About Sergio Campbell">
@@ -23,15 +28,10 @@ import Grid from "../components/Grid.astro";
       </Hero>
 
       <section>
-        <h2 class="section-title">Background</h2>
+        <h2 class="section-title">{i18n.ABOUT_PAGE.BACKGROUND}</h2>
         <div class="content">
           <p style="margin:1em 0;">
-            Since 2010 I started developing web pages with HTML and CSS in
-            parallel with my formal jobs in companies as a systems technician
-            organizing LAN and WLAN networks as well as the maintenance of
-            computer equipment and printers. I advanced my studies at the
-            Politecnico de las Costa Atlántica University; I discovered
-            programming languages:
+            {i18n.ABOUT_PAGE.BACKGROUND_DESC}
           </p>
           <Grid variant="small">
             {
@@ -41,14 +41,9 @@ import Grid from "../components/Grid.astro";
             }
           </Grid>
           <p style="margin:1em 0;">
-            With the latter, in mid-2018 I started using <q>Angular</q> and <q
-              >React.js</q
-            >
-            adapting the updates in every project I do and implementing programming
-            paradigms and agile methodologies such as SCRUM and currently applied
-            to the projects in which I collaborate.
+            {i18n.ABOUT_PAGE.BACKGROUND_DESC1}
           </p>
-          <p style="margin:1em 0;">Currently my programming stack is based on:</p>
+          <p style="margin:1em 0;">{i18n.ABOUT_PAGE.BACKGROUND_DESC2}</p>
           <Grid variant="small">
             {
               [
@@ -73,7 +68,7 @@ import Grid from "../components/Grid.astro";
         </div>
       </section>
       <section>
-        <h2 class="section-title">Education</h2>
+        <h2 class="section-title">{i18n.ABOUT_PAGE.EDUCATION}</h2>
         <div class="content">
           <p>Politecnico de las Costa Atlántica University.</p>
           <p>Sena Colombo Aleman.</p>

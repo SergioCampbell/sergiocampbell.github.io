@@ -1,0 +1,41 @@
+{
+    "SEO_TITLE": "Hello, my name is Sergio Campbell",
+    "SEO_TAGLINE": "I am a passionate web developer on a mission to bring ideas to life through captivating and user-centric online experiences.",
+    "SELECTED_WORK": "Selected Work",
+    "SELECTED_WORK_DESC": "Take a look below at some of my featured work for clients from the past few years.",
+    "SELECTED_WORK_VIEW_ALL": "View All",
+    "EXPERIENCE_WORK": "They trust in my work.",
+    "EXPERIENCE_WORK_DESC": "I have been fortunate enough to work with this companies and more.",
+    "SKILLS": "Skills",
+    "FULLSTACK": "Fullstack",
+    "FULLSTACK_DESC": "I like to know all the features of the projects and I appreciate if this experience is from zero.",
+    "TEAM_LEADER": "Team Leader",
+    "TEAM_LEADER_DESC": "It is important to manage and take control about a project and if the architecture needs we as a team can build it.",
+    "STRATEGY_MINDED": "Strategy Minded",
+    "STRATEGY_MINDED_DESC": "I have the ability to take decisions and create strategies to improve the performance of a project.",
+    "CONTACT_TITLE": "Interested in working with me?",
+    "VIEW_ALL": "View All",
+    "FOOTER": "Developed in Colombia with ",
+    "WORK_PAGE": {
+        "TITLE": "Work",
+        "DESCRIPTION": "See my most recent projects below to get an idea of my past experience."
+    },
+    "ABOUT_PAGE": {
+        "TITLE": "About",
+        "DESCRIPTION": "Thanks for stopping by. Read below to learn more about myself and my background.",
+        "BACKGROUND": "Background",
+        "BACKGROUND_DESC": "Since 2010 I started developing web pages with HTML and CSS in parallel with my formal jobs in companies as a systems technician organizing LAN and WLAN networks as well as the maintenance of computer equipment and printers. I advanced my studies at the Politecnico de las Costa Atlántica University; I discovered programming languages:",
+        "BACKGROUND_DESC1": "With the latter, in mid-2018 I started using <q>Angular</q> and <q>React.js</q> adapting the updates in every project I do and implementing programming paradigms and agile methodologies such as SCRUM and currently applied to the projects in which I collaborate.",
+        "BACKGROUND_DESC2": "Currently my programming stack is based on:",
+        "EDUCATION": "Education"
+
+    },
+    "NOT_FOUND": "Not Found",
+    "NOT_FOUND_DESC": "The page you are looking for does not exist.",
+    "NOT_FOUND_TITLE": "Page Not Found",
+    "NOT_FOUND_PAGE_DESC": "It looks like this content does not exist 😒",
+    "BLOG_PAGE": {
+        "TITLE": "Blog",
+        "DESCRIPTION": "Here I share my thoughts on web development, design, and more."
+    }
+}

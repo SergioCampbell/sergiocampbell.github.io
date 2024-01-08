@@ -1,9 +1,9 @@
 ---
-import Hero from '../components/Hero.astro';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 // Internalize i18n
-import { getI18n } from "../i18n";
+import { getI18n } from "../../i18n";
 const { currentLocale } = Astro as { currentLocale: string}
 const i18n = getI18n({ currentLocale });
 ---

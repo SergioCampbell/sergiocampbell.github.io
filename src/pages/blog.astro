@@ -8,6 +8,11 @@ import Hero from '../components/Hero.astro';
 import Grid from '../components/Grid.astro';
 import BlogPreview from '../components/BlogPreview.astro';
 
+// Internalize i18n
+import { getI18n } from "../i18n";
+const { currentLocale } = Astro as { currentLocale: string}
+const i18n = getI18n({ currentLocale });
+
 const blogs = (await getCollection('blog')).sort(
 	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
 );
@@ -20,8 +25,8 @@ const blogs = (await getCollection('blog')).sort(
 	<div class="stack gap-20">
 		<main class="wrapper stack gap-8">
 			<Hero
-				title="Blog"
-				tagline="Here I share my thoughts on web development, design, and more."
+				title={i18n.BLOG_PAGE.TITLE}
+				tagline={i18n.BLOG_PAGE.DESCRIPTION}
 				align="start"
 			/>
 			<Grid variant="offset">

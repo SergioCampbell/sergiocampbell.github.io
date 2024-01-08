@@ -1,12 +1,16 @@
 ---
 import Icon from './Icon.astro';
 const currentYear = new Date().getFullYear();
+// Internalize i18n
+import { getI18n } from "../i18n";
+const { currentLocale } = Astro as { currentLocale: string}
+const i18n = getI18n({ currentLocale });
 ---
 
 <footer>
 	<div class="group">
 		<p>
-			Developed in Colombia with <a href="https://astro.build/">Astro</a>
+			{i18n.FOOTER} <a href="https://astro.build/">Astro</a>
 			<Icon icon="rocket-launch" size="1.2em" />
 		</p>
 		<p>&copy; {currentYear} Sergio Campbell Dev</p>

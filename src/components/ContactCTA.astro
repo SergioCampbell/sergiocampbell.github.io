@@ -1,10 +1,12 @@
 ---
 import ContactForm from './ContactForm.tsx';
-
+import { getI18n } from "../i18n";
+const { currentLocale } = Astro as { currentLocale: string}
+const i18n = getI18n({ currentLocale });
 ---
 
 <aside>
-	<h2>Interested in working together?</h2>
+	<h2>{i18n.CONTACT_TITLE}</h2>
 	<ContactForm client:only="react" />
 </aside>
 

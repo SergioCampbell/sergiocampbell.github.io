@@ -6,5 +6,12 @@ import react from "@astrojs/react";
 export default defineConfig({
   site: "https://sergiocampbell.github.io",
   root: ".",
-  integrations: [react()]
+  integrations: [react()],
+  i18n: {
+    defaultLocale: "en",
+    locales: ["es", "en"]
+  },
+  routing: {
+    prefixDefaultLocale: false
+  }
 });

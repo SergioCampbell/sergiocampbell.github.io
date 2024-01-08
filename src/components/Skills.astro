@@ -1,5 +1,8 @@
 ---
 import Icon from "./Icon.astro";
+import { getI18n } from "../i18n";
+const { currentLocale } = Astro as { currentLocale: string}
+const i18n = getI18n({ currentLocale });
 ---
 
 <section class="box skills">
@@ -10,18 +13,16 @@ import Icon from "./Icon.astro";
       size="2.5rem"
       gradient
     />
-    <h2>Full Stack</h2>
+    <h2>{i18n.FULLSTACK}</h2>
     <p>
-      I like to know all the functionality of projects and is greatfull if this
-      experience is from scratch.
+      {i18n.FULLSTACK_DESC}
     </p>
   </div>
   <div class="stack gap-2 lg:gap-4">
     <Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
-    <h2>Team Leader</h2>
+    <h2>{i18n.TEAM_LEADER}</h2>
     <p>
-      It is important to manage and take control about a project and if the
-      architecture needs we as a team can build it.
+      {i18n.TEAM_LEADER_DESC}
     </p>
   </div>
   <div class="stack gap-2 lg:gap-4">
@@ -31,11 +32,9 @@ import Icon from "./Icon.astro";
       size="2.5rem"
       gradient
     />
-    <h2>Strategy-Minded</h2>
+    <h2>{i18n.STRATEGY_MINDED}</h2>
     <p>
-      When the team requires some changes or a few, we can propose some
-      strategies to implement and document it to reduce development time and
-      strengthen business logic if necessary according to the project.
+      {i18n.STRATEGY_MINDED_DESC}
     </p>
   </div>
 </section>

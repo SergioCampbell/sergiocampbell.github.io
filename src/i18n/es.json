@@ -1,0 +1,40 @@
+{
+    "SEO_TITLE":"Hola mi nombre es Sergio Campbell",
+    "SEO_TAGLINE":"Soy un apasionado desarrollador web en una misión de llevar ideas a la vida a través de captar y centrar experiencias de usuario en línea.",
+    "SELECTED_WORK":"Trabajos Seleccionados",
+    "SELECTED_WORK_DESC":"Toma un vistazo a algunos de mis trabajos seleccionados para clientes de la vida.",
+    "SELECTED_WORK_VIEW_ALL":"Ver Todos",
+    "EXPERIENCE_WORK":"Ellos confiaron en mi trabajo.",
+    "EXPERIENCE_WORK_DESC":"Tuve la fortuna de trabajar con estas empresas y más.",
+    "SKILLS":"Habilidades",
+    "FULLSTACK":"Fullstack",
+    "FULLSTACK_DESC": "Me gusta conocer todas las funcionalidades de los proyectos y agradezco si esta experiencia es desde cero.",
+    "TEAM_LEADER":"Lider de Equipo",
+    "TEAM_LEADER_DESC": "Es importante administrar y tomar control de un proyecto y si la arquitectura necesita, podemos construirlo.",
+    "STRATEGY_MINDED": "Estrategista",
+    "STRATEGY_MINDED_DESC": "Tengo la habilidad de tomar decisiones y crear estrategias para mejorar el rendimiento de un proyecto.",
+    "CONTACT_TITLE": "Interesado en trabajar conmigo?",
+    "VIEW_ALL": "Ver Todos",
+    "FOOTER": "Desarrollado en Colombia con ",
+    "WORK_PAGE": {
+        "TITLE": "Trabajos",
+        "DESCRIPTION": "Mira mis proyectos recientes abajo para obtener una idea de mi experiencia."
+    },
+    "ABOUT_PAGE": {
+        "TITLE": "Acerca de",
+        "DESCRIPTION": "Gracias por dejar de visitar. Lee abajo para aprender más sobre mi y mi fondo de estudios.",
+        "BACKGROUND": "Fondo",
+        "BACKGROUND_DESC": "Hace 2010 comencei a programar con HTML y CSS en paralelo con mis estudios previos en la Politecnico de las Costa Atlántica. Luego, aprendi programación lenguajes:",
+        "BACKGROUND_DESC1": "Con lo último, a mediados de 2018 comencé a usar <q>Angular</q> y <q>React.js</q>, adaptando las actualizaciones en cada proyecto que hago e implementando paradigmas de programación y metodologías ágiles como SCRUM y actualmente aplicado a los proyectos en los que colaboro.",
+        "BACKGROUND_DESC2": "Actualmente, mi stack de programación basado es:",
+        "EDUCATION": "Educación"
+    },
+    "NOT_FOUND": "No encontrado",
+    "NOT_FOUND_DESC": "La página que estas buscando no existe.",
+    "NOT_FOUND_TITLE": "Pagina No Encontrada",
+    "NOT_FOUND_PAGE_DESC": "Parece que este contenido no existe 😒",
+    "BLOG_PAGE": {
+        "TITLE": "Blog",
+        "DESCRIPTION": "Aqui compartimos mis pensamientos sobre programación, diseño, y más."
+    }
+}
