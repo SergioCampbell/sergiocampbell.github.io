@@ -270,14 +270,14 @@ h5 {
 }
 
 .contactTextarea {
-	border-radius: 999rem;
+	border-radius: 30px;
     background-color: var(--gray-999);
 	border: 1px solid var(--accent-regular);
 	color: var(--gray-0);
-	max-width: 649px;
+    width: 400px;
+    height: 400px;
+	max-width: 600px;
     max-height: 171px;
-    min-width: 349px;
-    min-height: 50px;
 }
 
 .contactBtn {
