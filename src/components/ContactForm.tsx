@@ -8,7 +8,7 @@ const [wasSended, setWasSended] = React.useState(false)
   const submit = (e: React.FormEvent<HTMLFormElement>) => {
       e.preventDefault();
     emailjs.sendForm("service_ztojqk4", "template_n0zrrmg",
-        form.current, "user_rB8qWaGWX9OFw575diXB3")
+        form.current!, "user_rB8qWaGWX9OFw575diXB3")
       .then((result: EmailJSResponseStatus) => {
           console.log(result.text);
           setWasSended(true);
