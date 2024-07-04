@@ -1,7 +1,7 @@
 ---
 title: Internationalization i18n in Nextjs project
 publishDate: 2024-02-11 00:00:00
-img: https://th.bing.com/th/id/OIG1.4Fo_ijzjKtN.BOAqYxIv?pid=ImgGn
+img: https://cdn.pixabay.com/photo/2018/07/08/08/45/abc-3523453_1280.jpg
 img_alt: Internationalization i18n in Nextjs project by sergio campbell dev
 description: |
    Internationalization, also known as i18n (short for "internationalization"), is a crucial aspect to reach global audiences in web application development. In this article, we will guide you through the process of integrating internationalization into your Next.js project using the next-intl library.

@@ -4,6 +4,9 @@
     "SELECTED_WORK": "Selected Work",
     "SELECTED_WORK_DESC": "Take a look below at some of my featured work for clients from the past few years.",
     "SELECTED_WORK_VIEW_ALL": "View All",
+    "BLOG_PREVIEW": "Blog Preview",
+    "BLOG_PREVIEW_DESC": "Take a look below at some of my latest blog posts.",
+    "BLOG_VIEW_ALL": "View All",
     "EXPERIENCE_WORK": "They trust in my work.",
     "EXPERIENCE_WORK_DESC": "I have been fortunate enough to work with this companies and more.",
     "SKILLS": "Skills",
@@ -25,7 +28,7 @@
         "DESCRIPTION": "Thanks for stopping by. Read below to learn more about myself and my background.",
         "BACKGROUND": "Background",
         "BACKGROUND_DESC": "Since 2010 I started developing web pages with HTML and CSS in parallel with my formal jobs in companies as a systems technician organizing LAN and WLAN networks as well as the maintenance of computer equipment and printers. I advanced my studies at the Politecnico de las Costa Atlántica University; I discovered programming languages:",
-        "BACKGROUND_DESC1": "With the latter, in mid-2018 I started using <q>Angular</q> and <q>React.js</q> adapting the updates in every project I do and implementing programming paradigms and agile methodologies such as SCRUM and currently applied to the projects in which I collaborate.",
+        "BACKGROUND_DESC1": "With the latter, in mid-2018 I started using Angular and React.js adapting the updates in every project I do and implementing programming paradigms and agile methodologies such as SCRUM and currently applied to the projects in which I collaborate.",
         "BACKGROUND_DESC2": "Currently my programming stack is based on:",
         "EDUCATION": "Education"
 

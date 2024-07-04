@@ -121,6 +121,10 @@ body {
 	overflow-x: hidden;
 }
 
+::selection {
+	background: var(--accent-regular);
+}
+
 body {
 	background-color: var(--gray-999);
 	color: var(--gray-200);

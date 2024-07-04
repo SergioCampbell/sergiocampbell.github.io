@@ -1,7 +1,7 @@
 ---
 title: Demystifying Design Patterns in JavaScript and TypeScript
 publishDate: 2024-01-05 00:00:00
-img: https://th.bing.com/th/id/OIG.2f8b2JS2UY8o6O5MkjQ6?w=1024&h=1024&rs=1&pid=ImgDetMain
+img: https://cdn.pixabay.com/photo/2021/01/03/13/51/lego-5884582_1280.jpg
 img_alt: Demystifying Design Patterns in JavaScript and TypeScript by sergio campbell dev
 description: |
    Design patterns play a crucial role. However, their implementation in JavaScript and TypeScript often raises concerns and confusion.
@@ -33,7 +33,7 @@ The efficiency of an application largely depends on its data architecture. We wi
 
 Además de abordar aspectos técnicos, dedicaremos un segmento a la creación de contenido inclusivo. ¿Cómo explicar conceptos complejos a colegas no programadores? Compartiremos estrategias para comunicar eficazmente ideas técnicas a audiencias diversas, mejorando la colaboración en equipos multidisciplinarios.
 
-##### Conclusion
+##### In summary
 
 In summary, this article aims to unravel the mysteries of design patterns, promote the writing of clean and efficient code, and encourage the creation of accessible content. By implementing these concepts, we not only improve our skills as developers but also contribute to a more collaborative and efficient development environment.
 

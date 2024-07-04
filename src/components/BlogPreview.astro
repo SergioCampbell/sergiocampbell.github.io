@@ -8,10 +8,10 @@ interface Props {
 const { data, slug } = Astro.props.blog;
 ---
 
-<a class="card" href={`/blog/${slug}`}>
-	<span class="title">{data.title}</span>
-	<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
-</a>
+	<a data-tilt data-tilt-glare data-tilt-max-glare="0.8" class="card" href={`/blog/${slug}`}>
+		<span class="title">{data.title}</span>
+		<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
+	</a>
 
 <style>
 	.card {

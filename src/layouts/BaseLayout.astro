@@ -33,6 +33,15 @@ const { title, description } = Astro.props;
 			addEventListener('load', () => document.documentElement.classList.add('loaded'));
 		</script>
 
+		<script type="text/javascript" src="https://unpkg.com/vanilla-tilt@1.7.0/dist/vanilla-tilt.js">
+			VanillaTilt.init(document.querySelector(".card"), {
+				max: 25,
+				speed: 400,
+				transform: perspective("1000px"),
+				
+			});
+		</script>
+
 		<style>
 			:root {
 				--_placeholder-bg: linear-gradient(transparent, transparent);

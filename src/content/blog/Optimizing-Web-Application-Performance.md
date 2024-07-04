@@ -1,7 +1,7 @@
 ---
 title: Optimizing Web Application Performance with WebAssembly in TypeScript
 publishDate: 2024-01-09 00:00:00
-img: https://th.bing.com/th/id/OIG.y1WMWihnft.dIdiDooje?pid=ImgGn
+img: https://cdn.pixabay.com/photo/2017/08/25/19/11/tuning-world-2681096_1280.jpg
 img_alt: Optimizing Web Application Performance with WebAssembly in TypeScript by sergio campbell dev
 description: |
    In the fast-paced world of web development, speed and efficiency are paramount. In this article, we will explore how to use WebAssembly in conjunction with TypeScript to significantly enhance the performance of our web applications.
@@ -68,9 +68,3 @@ WebAssembly.instantiateStreaming(fetch('my-module.wasm'), importObject)
     })
     .catch(error => console.error(error));
 </code>
-
----
-
-*I hope this article provides you with a clear understanding of how to harness WebAssembly in TypeScript projects to boost the performance of your web applications. Feel free to share your experiences and questions in the comments! Optimize and accelerate your web development!*
-
-##### Do you like this post? Share it
