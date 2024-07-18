@@ -44,7 +44,7 @@ const { Content } = await entry.render();
 			</header>
 			<main class="wrapper">
 				<div class="stack gap-10 content">
-					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
+					{entry.data.img && <img class="image" src={entry.data.img} alt={entry.data.img_alt || ''} />}
 					<div class="content">
 						<Content />
 					</div>
@@ -84,8 +84,13 @@ const { Content } = await entry.render();
 		max-width: 54ch;
 	}
 
+	.image {
+		width: 70%;
+		margin-inline: auto;
+	}
+
 	.content {
-		max-width: 65ch;
+		max-width: 110ch;
 		margin-inline: auto;
 	}
 
