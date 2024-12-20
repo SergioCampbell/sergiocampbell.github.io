@@ -51,7 +51,7 @@ The browser begins by parsing the HTML document to construct the DOM. The DOM is
 
 - **DOM Tree:**
 
-  ```
+  ```sheet
   Document
   ├── html
       ├── head
@@ -81,7 +81,7 @@ Simultaneously, the browser parses the CSS files to construct the CSSOM, which r
 
 - **CSSOM:**
 
-  ```
+  ```sheet
   Stylesheet
   ├── body
   │   └── font-family: Arial, sans-serif
@@ -95,7 +95,7 @@ The browser combines the DOM and CSSOM to create the Render Tree, which represen
 
 - **Render Tree:**
 
-  ```
+  ```sheet
   RenderRoot
   ├── RenderBody (font-family: Arial, sans-serif)
       ├── RenderH1 (color: blue)
