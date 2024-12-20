@@ -41,4 +41,4 @@ In summary, this article aims to unravel the mysteries of design patterns, promo
 
 Have you faced challenges when applying design patterns in your projects? Do you have any advice on writing clean code? Share your experience in the comments and join the conversation. Share this article on your networks to help other developers reach their full potential!
 
-<i>Together, we build better code!</i>
+*Together, we build better code!*
